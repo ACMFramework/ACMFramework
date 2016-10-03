@@ -27,6 +27,20 @@ Pre-requisites:
 
 The manageConsistency() method is called following framework setup and establishing trace links and after changes to any of the artefacts in the repository have been made. At the end of the consistency management process, the framework provides suggestions on resolving (potential) inconsistencies.
 
+##Output
+CHANGE PROPAGATION
+No inter impact analysis and inter consistency checking took place. Check connections are in place.
+No inter impact analysis and inter consistency checking took place. Check connections are in place.
+No inter impact analysis and inter consistency checking took place. Check connections are in place.
+The log Field has been edited. Change type = DELETE
+Change propagation suggestion: 
+Edit Node id:sc0C:\Users\Ildi\Dropbox\PhD\ACMF\SourceCode\ChatBot.graphml, Node type:class, 
+The main Method has been edited. Change type = EDIT
+Change propagation suggestion: 
+Edit Node id:sc0C:\Users\Ildi\Dropbox\PhD\ACMF\SourceCode\ChatBot.graphml, Node type:class, 
+No intra impact analysis and intra consistency checking took place. Check intra connections are in place.
+
+
 ## Trace link creation
 The framework provides an approach to automatic trace link creation between heterogeneous software artefacts using
 machine learning techniques. The functionality can be invoked by calling the manageTraceLinkCreation() method in the Startup class mentioned above. 
